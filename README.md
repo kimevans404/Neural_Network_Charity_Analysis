@@ -1,21 +1,20 @@
 # Neural_Network_Charity_Analysis
 
-## Overview of the loan prediction risk analysis:
-The purpose of this analysis is well defined (4 pt)
+## Overview of the loan prediction risk analysis
+This analysis uses features in the provided CSV dataset to create a binary cclassifier that is capable of predicting whether loan applicants will be successful if funded .
 
 ## Results:
-There is a bulleted list that answers all six questions (15 pt)
 
 ### Data Preprocessing
-- What variable(s) are considered the target(s) for your model?
-- What variable(s) are considered to be the features for your model?
-- What variable(s) are neither targets nor features, and should be removed from the input data?
+- The data from the "IS_SUCCESSFUL" column was used as the target variable for the model. 
+- The variables used for the features of the model were the columns "APPLICATION_TYPE", "AFFILIATION",	"CLASSIFICATION", "USE_CASE", "ORGANIZATION", "STATUS", "INCOME_AMT", "SPECIAL_CONSIDERATIONS", "ASK_AMT"
+- The columns "EIN" and "NAME" containing identification data are neither targets nor features, and were removed from the input data.
 
 ### Compiling, Training, and Evaluating the Model
-- How many neurons, layers, and activation functions did you select for your neural network model, and why?
-- Were you able to achieve the target model performance?
-- What steps did you take to try and increase model performance?
+- To try and reach target performance without over training, I used 8 neurons in the first hidden layer and 5 in the second hidden layer.
+- I Was not able to achieve the target model performance
+- To try and increase model performance I did adjust the number of neurons, hidden layers, epochs, and activation functions.
 
 ## Summary:
-There is a summary of the results (2 pt)
-There is a recommendation on using a different model to solve the classification problem, and justification (3 pt)
+
+While this model may predict some risk for loan applicants, it is not achieving target performance even with adjustments. I do not think this model is the best choice for predictions using this dataset. To solve the classification problem, I would suggest a supervised learning algorithm to achieve better model performance. 
