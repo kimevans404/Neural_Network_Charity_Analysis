@@ -12,8 +12,8 @@ This analysis uses features in the provided CSV dataset to create a binary cclas
 
 ### Compiling, Training, and Evaluating the Model
 - To try and reach target performance without over training, I used 8 neurons in the first hidden layer and 5 in the second hidden layer.
-- I Was not able to achieve the target model performance
-- To try and increase model performance I did adjust the number of neurons, hidden layers, epochs, and activation functions.
+- Target model performance was not achieved.
+- To try and increase model performance I adjusted the number of neurons, hidden layers, epochs, and activation functions.
 
 ## Summary:
 
