@@ -1,7 +1,7 @@
 # Neural_Network_Charity_Analysis
 
 ## Overview of the loan prediction risk analysis
-This analysis uses features in the provided CSV dataset to create a binary cclassifier that is capable of predicting whether loan applicants will be successful if funded .
+This analysis uses features in the provided CSV dataset to create a binary classifier that is capable of predicting whether loan applicants will be successful if funded.
 
 ## Results:
 
